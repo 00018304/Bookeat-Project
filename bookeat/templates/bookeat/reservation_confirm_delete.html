@@ -1,0 +1,5 @@
+{% load static %}
+<!doctype html><html><head><meta charset="utf-8"><title>Delete reservation</title></head><body>
+<div class="container py-4"><h1>Delete reservation</h1><p>Are you sure you want to delete reservation at {{ reservation.restaurant.name }}?</p>
+<form method="post">{% csrf_token %}<button class="btn btn-danger" type="submit">Yes, delete</button>
+<a href="{% url 'bookeat:reservations_list' %}" class="btn btn-secondary">Cancel</a></form></div></body></html>

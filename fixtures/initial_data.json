@@ -1,0 +1,329 @@
+[
+  {
+    "model": "bookeat.restaurant",
+    "pk": 1,
+    "fields": {
+      "name": "Yaponamama",
+      "address": "Tashkent, Shevchenko",
+      "description": "Modern Japanese fusion."
+    }
+  },
+  {
+    "model": "bookeat.restaurant",
+    "pk": 2,
+    "fields": {
+      "name": "B&B",
+      "address": "Tashkent, Istiqbol Street",
+      "description": "Cozy breakfasts and brunch."
+    }
+  },
+  {
+    "model": "bookeat.restaurant",
+    "pk": 3,
+    "fields": {
+      "name": "Giotto",
+      "address": "Tashkent, Amir Temur Avenue 1",
+      "description": "Italian classics and pizza."
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 1,
+    "fields": {
+      "restaurant": 1,
+      "name": "Fila mango - Yaponamama",
+      "is_drink": false,
+      "price": "113.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 2,
+    "fields": {
+      "restaurant": 1,
+      "name": "Sea Pearl - Yaponamama",
+      "is_drink": false,
+      "price": "49.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 3,
+    "fields": {
+      "restaurant": 1,
+      "name": "Mosaic - Yaponamama",
+      "is_drink": false,
+      "price": "99.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 4,
+    "fields": {
+      "restaurant": 1,
+      "name": "President roll - Yaponamama",
+      "is_drink": false,
+      "price": "79.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 5,
+    "fields": {
+      "restaurant": 1,
+      "name": "Mochi - Yaponamama",
+      "is_drink": false,
+      "price": "65.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 6,
+    "fields": {
+      "restaurant": 1,
+      "name": "Choco roll - Yaponamama",
+      "is_drink": false,
+      "price": "54.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 7,
+    "fields": {
+      "restaurant": 1,
+      "name": "San Sebastian - Yaponamama",
+      "is_drink": false,
+      "price": "39.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 8,
+    "fields": {
+      "restaurant": 1,
+      "name": "Greek salas - Yaponamama",
+      "is_drink": false,
+      "price": "54.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 9,
+    "fields": {
+      "restaurant": 1,
+      "name": "Pepsi - Yaponamama",
+      "is_drink": true,
+      "price": "16.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 10,
+    "fields": {
+      "restaurant": 1,
+      "name": "Water - Yaponamama",
+      "is_drink": true,
+      "price": "5.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 11,
+    "fields": {
+      "restaurant": 2,
+      "name": "Chicken soup - B&B",
+      "is_drink": false,
+      "price": "36.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 12,
+    "fields": {
+      "restaurant": 2,
+      "name": "Lentil soup - B&B",
+      "is_drink": false,
+      "price": "36.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 13,
+    "fields": {
+      "restaurant": 2,
+      "name": "Croissant sandwich - B&B",
+      "is_drink": false,
+      "price": "59.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 14,
+    "fields": {
+      "restaurant": 2,
+      "name": "French fries - B&B",
+      "is_drink": false,
+      "price": "28.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 15,
+    "fields": {
+      "restaurant": 2,
+      "name": "Carbonara pasta  - B&B",
+      "is_drink": false,
+      "price": "69.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 16,
+    "fields": {
+      "restaurant": 2,
+      "name": "Teriyaki chicken - B&B",
+      "is_drink": false,
+      "price": "84.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 17,
+    "fields": {
+      "restaurant": 2,
+      "name": "Sweet pancakes - B&B",
+      "is_drink": false,
+      "price": "37.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 18,
+    "fields": {
+      "restaurant": 2,
+      "name": "Muffin - B&B",
+      "is_drink": false,
+      "price": "30.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 19,
+    "fields": {
+      "restaurant": 2,
+      "name": "Ice tea - B&B",
+      "is_drink": true,
+      "price": "33.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 20,
+    "fields": {
+      "restaurant": 2,
+      "name": "Pineapple guava milkshake - B&B",
+      "is_drink": true,
+      "price": "39.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 21,
+    "fields": {
+      "restaurant": 3,
+      "name": "Ricotta ravioli - Giotto",
+      "is_drink": false,
+      "price": "83.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 22,
+    "fields": {
+      "restaurant": 3,
+      "name": "Roast Beef pizza - Giotto",
+      "is_drink": false,
+      "price": "174.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 23,
+    "fields": {
+      "restaurant": 3,
+      "name": "Salmon Sandwich - Giotto",
+      "is_drink": false,
+      "price": "103.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 24,
+    "fields": {
+      "restaurant": 3,
+      "name": "Kitchen soup - Giotto",
+      "is_drink": false,
+      "price": "46.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 25,
+    "fields": {
+      "restaurant": 3,
+      "name": "Polka dessert - Giotto",
+      "is_drink": false,
+      "price": "59.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 26,
+    "fields": {
+      "restaurant": 3,
+      "name": "Amerana Wafer - Giotto",
+      "is_drink": false,
+      "price": "80.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 27,
+    "fields": {
+      "restaurant": 3,
+      "name": "Tiramisu icecream - Giotto",
+      "is_drink": false,
+      "price": "129.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 28,
+    "fields": {
+      "restaurant": 3,
+      "name": "scottish cookies icecream - Giotto",
+      "is_drink": false,
+      "price": "129.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 29,
+    "fields": {
+      "restaurant": 3,
+      "name": "Berry shake - Giotto",
+      "is_drink": true,
+      "price": "61.000"
+    }
+  },
+  {
+    "model": "bookeat.meal",
+    "pk": 30,
+    "fields": {
+      "restaurant": 3,
+      "name": "Mojito classic - Giotto",
+      "is_drink": true,
+      "price": "41.000"
+    }
+  }
+]

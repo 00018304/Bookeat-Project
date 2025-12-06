@@ -1,0 +1,27 @@
+body 
+{ background: linear-gradient(180deg, #fff6fb 0%, #fff0f6 100%); 
+color: #333; }
+
+.site-header 
+{ background: #ffdbe9; 
+color: #6a1b4d; 
+border-bottom: 3px solid #ffb3d1; }
+
+.brand 
+{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+font-weight:700; color:#6a1b4d; }
+
+.restaurant-card 
+{ background: white; 
+border-radius: 12px; 
+box-shadow: 0 6px 18px rgba(170,50,120,0.08); }
+
+.btn-pink 
+{ background: linear-gradient(90deg,#ff99c8,#ff66b3); 
+color: white; 
+border: none; 
+padding: 8px 14px; 
+border-radius: 8px; }
+
+.btn-pink:hover 
+{ opacity: 0.95; }

@@ -1,0 +1,10 @@
+Django>=4.2
+djangorestframework
+djangorestframework-simplejwt
+pillow
+python-decouple
+psycopg2-binary
+django-filter
+drf-yasg
+gunicorn
+whitenoise
